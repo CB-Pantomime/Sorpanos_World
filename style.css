@@ -1,0 +1,96 @@
+
+* {
+    background-color: rgb(233, 240, 240);
+}
+
+.title {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8em;
+}
+
+.blurb {
+    /* margin-top: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: Courier;
+    font-size: 1em;
+}
+
+.soundcloud {
+    margin-top: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.soundcloud-blurb {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Courier;
+    font-size: 1em;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(208, 115, 241);
+    color: inherit;
+}
+
+.screenplay-blurb {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif; */
+    font-family: Courier;
+    /* font-style: italic; */
+    font-size: 1.25em;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+.center {
+   margin-top: 40px;
+   margin-bottom: 160px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.screenbox {
+    list-style: none;
+    width: 700px;
+    /* background: ; */
+    border: 1px solid #090909;
+    padding: 5px 14px;
+
+}
+
+.screenbox li { font: 16px/18px Courier, fixed; }
+
+.sceneheader, .action, .character { padding-top: 1.5ex; }
+
+.action { padding-right: 5%; }
+
+.character { margin-left: 40%; }
+
+.dialogue { margin-left: 25%; padding-right: 25%; }
+
+.parenthetical { margin-left: 32%; padding-right: 30%; }
+
+/* special case: dialogue followed by a parenthetical; the extra line needs to be suppressed */
+
+.dialogue + .parenthetical { padding-bottom: 0; }
+
+.transition { padding-top: 3ex; margin-left: 65%; padding-bottom: 1.5ex; }
